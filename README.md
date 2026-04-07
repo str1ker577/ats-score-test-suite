@@ -71,11 +71,23 @@ They are not real individuals.
 
 ## How to Reproduce
 
-1. Open CeeVee ATS Scoring feature  
-2. Upload a resume from `/resumes`  
-3. Paste the job description  
-4. Click Analyze  
-5. Compare results with documented outputs  
+1. Review the job description and optimization inputs:
+   - Open `/resumes/JD_and_Optimization_Input.pdf`
+
+2. Open the CeeVee ATS Scoring feature
+
+3. Upload one of the resumes:
+   - `/resumes/AI_Engineer_Complete.pdf`
+   - `/resumes/AI_Engineer_Partial.pdf`
+   - `/resumes/AI_Engineer_Minimal.pdf`
+
+4. Paste the same job description used in the reference file
+
+5. Click **Analyze**
+
+6. Compare results with:
+   - `/ATS_Test_Cases.md`
+   - `/screenshots/`
 
 ---
 
