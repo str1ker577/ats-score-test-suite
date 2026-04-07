@@ -393,3 +393,76 @@ However, improvements are needed in:
 ---
 
 This test suite evaluates both functional correctness and system reliability under realistic user scenarios. While scoring behavior is consistent, improvements in NLP accuracy would significantly enhance trust and usability.
+
+
+# Limitations of ATS Systems (Observed)
+
+Based on the test results, several inherent limitations of ATS-style systems were observed:
+
+---
+
+## 1. Keyword-Based Matching Bias
+The system heavily relies on **exact keyword matching**, leading to:
+
+- False negatives when equivalent terms are used  
+  (e.g., chatbot ≠ AI agent)  
+- Penalization of semantically correct but differently phrased content  
+
+This suggests limited semantic understanding.
+
+---
+
+## 2. Weak Semantic Understanding
+The system does not fully recognize relationships between concepts:
+
+- AI experiments not recognized as AI workflows  
+- Chatbots not mapped to agent systems  
+
+Indicates absence of deeper NLP or embedding-based matching.
+
+---
+
+## 3. False Positives from Generic Keywords
+Generic terms such as:
+- “programming”
+- “software development”
+
+are treated as meaningful matches.
+
+This can inflate scores for low-quality resumes.
+
+---
+
+## 4. Keyword Redundancy
+Closely related terms are treated as separate missing keywords:
+
+- AI agents  
+- agent frameworks  
+- agentic systems  
+
+Leads to noisy and less actionable feedback.
+
+---
+
+## 5. Suggestion Reliability Issues
+Some recommendations are:
+
+- Incorrect (e.g., wrong job title suggestion)  
+- Too generic  
+- Not context-aware  
+
+Reduces user trust in the system.
+
+---
+
+## Summary
+
+While ATS systems are effective for **baseline filtering and scoring**, their reliance on keyword matching and limited semantic reasoning can lead to:
+
+- Inaccurate evaluations  
+- Misleading suggestions  
+- Reduced reliability for nuanced resumes  
+
+---
+
+Improving semantic matching, keyword normalization, and contextual recommendation logic would significantly enhance system accuracy and user trust.
