@@ -1,4 +1,4 @@
-# ATS Scoring Feature - QA Test Report
+# ATS Scoring Feature – QA & System Evaluation Report
 
 ## Feature Under Test
 ATS Scoring
@@ -186,7 +186,7 @@ This resume represents **moderate alignment** with the AI Engineer role:
 - Quantify AI experiment results  
 
 **MEDIUM Priority**
-- Strenghten Achievement Language  
+- Strengthen Achievement Language
 - Align professional summary  
 
 **LOW Priority**
@@ -266,8 +266,16 @@ This resume represents a **low-quality baseline**:
 
 ---
 
-### Missing Keywords
-(OpenAI, LangChain, AutoGen, AI agents, automation, etc.)
+### Missing Keywords- OpenAI  
+- LangChain  
+- AutoGen  
+- OpenCLAW  
+- AI agents  
+- autonomous workflows  
+- API monetization  
+- portfolio companies  
+- agentic systems  
+- scalable AI capabilities  
 
 ---
 
@@ -392,7 +400,7 @@ However, improvements are needed in:
 
 ---
 
-This test suite evaluates both functional correctness and system reliability under realistic user scenarios. While scoring behavior is consistent, improvements in NLP accuracy would significantly enhance trust and usability.
+This test suite evaluates both functional correctness and system reliability using controlled, real-world test scenarios. While scoring behavior is consistent, improvements in NLP accuracy would significantly enhance trust and usability.
 
 
 # Limitations of ATS Systems (Observed)
@@ -466,3 +474,12 @@ While ATS systems are effective for **baseline filtering and scoring**, their re
 ---
 
 Improving semantic matching, keyword normalization, and contextual recommendation logic would significantly enhance system accuracy and user trust.
+
+
+---
+
+## Notes
+
+- Test resumes were generated using AI-assisted tools for controlled experimentation purposes.
+- All results are based on actual runs of the ATS scoring feature.
+- Screenshots are provided as evidence for reproducibility.
